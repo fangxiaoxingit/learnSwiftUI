@@ -27,6 +27,7 @@ struct ContentView: View {
                 }
                 .font(.subheadline)
                 .foregroundColor(Color.gray)
+                
                 Divider()
                 
                 Text("About Turtle Rock")
