@@ -47,12 +47,17 @@ struct HikeView: View {
                         .padding()
                 }
             }
+            
+            
 
             if showDetail {
                 HikeDetail(hike: hike)
+                    .padding(.top, 10.0)
                     .transition(.moveAndFade)
             }
+            Spacer()
         }
+        .padding()
     }
 }
 

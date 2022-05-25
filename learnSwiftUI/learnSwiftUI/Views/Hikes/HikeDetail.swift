@@ -22,13 +22,13 @@ struct HikeDetail: View {
             HikeGraph(hike: hike, path: dataToShow)
                 .frame(height: 200)
 
-            HStack(spacing: 25) {
+            HStack(spacing: 30) {
                 ForEach(buttons, id: \.0) { value in
                     Button {
                         dataToShow = value.1
                     } label: {
                         Text(value.0)
-                            .font(.system(size: 15))
+                            .font(.system(size: 18))
                             .foregroundColor(value.1 == dataToShow
                                 ? .gray
                                 : .accentColor)
@@ -36,6 +36,7 @@ struct HikeDetail: View {
                     }
                 }
             }
+            .padding(.top, 10.0)
         }
     }
 }

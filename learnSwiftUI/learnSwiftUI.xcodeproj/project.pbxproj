@@ -98,9 +98,9 @@
 		019F4052283C98E40063DA19 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				01EA01C5283BDC4500CCD4DD /* ContentView.swift */,
 				016ACF66283DDEEA008AD8DD /* Hikes */,
 				016ACF60283DD365008AD8DD /* Badges */,
-				01EA01C5283BDC4500CCD4DD /* ContentView.swift */,
 				01D4D726283CE4EB00E0717F /* Helpers */,
 				01D4D725283CE4CA00E0717F /* Landmarks */,
 			);
