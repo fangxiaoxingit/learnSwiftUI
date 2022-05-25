@@ -12,9 +12,11 @@ struct learnSwiftUIApp: App {
     @StateObject private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
-            HikeView(hike: ModelData().hikes[0])
-//            ContentView()
-//                .environmentObject((modelData))
+//            CategoryHome()
+//                .environmentObject(ModelData())
+//            HikeView(hike: ModelData().hikes[0])
+            ContentView()
+                .environmentObject((modelData))
         }
     }
 }
